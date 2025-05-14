@@ -8,7 +8,7 @@ from torch import Tensor
 from mmengine.model import BaseModule
 from mmdet3d.registry import MODELS, TASK_UTILS
 import os
-from timm.models.layers import DropPath
+from timm.layers import DropPath
 from mmdet3d.models.modal_fusion.mhca import FeatureResizer
 from mmdet3d.models.modal_fusion.LPCF import LPCF
 from mmdet3d.models.modal_fusion.position_encodings import LearnedPositionalEncoding3D, PositionEmbeddingSine1D

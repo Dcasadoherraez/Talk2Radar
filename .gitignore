@@ -1,0 +1,4 @@
+build/
+__pycache__/
+*/.mim
+*/*.egg-info

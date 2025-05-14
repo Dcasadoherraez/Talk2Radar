@@ -252,6 +252,7 @@ def get_kitti_image_info(path,
             prompt_info = {}
             prompt_path = get_prompt_path(
                 idx, path, training, relative_path)
+            print(prompt_path)
             if relative_path:
                 prompt_path = str(root_path / prompt_path)
             with open(prompt_path, 'r') as f:
